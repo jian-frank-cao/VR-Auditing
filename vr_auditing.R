@@ -4,7 +4,7 @@ library(data.table)
 library(furrr)
 options(future.globals.maxSize= 89128960000)
 
-path = "F:/MyFiles/Documents/GitHub/VR-Auditing/" # ends with /
+path = "/WORKING DIRECTORY/" # ends with /
 setwd(path)
 
 data_path = "data/"
