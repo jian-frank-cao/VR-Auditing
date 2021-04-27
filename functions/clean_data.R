@@ -78,9 +78,9 @@ clean_ca_data = function(data){
 }
 
 
-## Run -------------------------------------------------------------------------
-plan(multisession, workers = 6)
-data = clean_ca_data(data)
+## Not Run -------------------------------------------------------------------------
+# plan(multisession, workers = 6)
+# data = clean_ca_data(data)
 
 
 

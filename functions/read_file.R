@@ -179,10 +179,10 @@ read_ca_data = function(file_code, file_vrd, error_ids){
 }
 
   
-## Run -------------------------------------------------------------------------
-error_ids = c(38359411, 38362837, 38359739)
-file_code = "1316"
-file_vrd = '1316-90617-59-pvrdr-vrd-20210201-1415.TXT'
-
-
-data = read_ca_data(file_code, file_vrd, error_ids)
+## Not Run -------------------------------------------------------------------------
+# error_ids = c(38359411, 38362837, 38359739)
+# file_code = "1316"
+# file_vrd = '1316-90617-59-pvrdr-vrd-20210201-1415.TXT'
+# 
+# 
+# data = read_ca_data(file_code, file_vrd, error_ids)

@@ -83,6 +83,6 @@ save_ca_stats = function(data){
   print(paste0("Stats of snapshot ", file_code, " are saved."))
 }
 
-## Run -------------------------------------------------------------------------
-save_ca_stats(data, file_code)
+## Not Run -------------------------------------------------------------------------
+# save_ca_stats(data, file_code)
 

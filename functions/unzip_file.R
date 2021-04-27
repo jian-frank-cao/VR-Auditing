@@ -54,8 +54,8 @@ unzip_ca_files = function(source_path, dest_path, target = "vrd"){
   return(job)
 }
 
-## Run -------------------------------------------------------------------------
-job = unzip_ca_files(paste0(path, zip_path),
-                     paste0(path, txt_path),
-                     "pd")
+## Not Run -------------------------------------------------------------------------
+# job = unzip_ca_files(paste0(path, zip_path),
+#                      paste0(path, txt_path),
+#                     "-vrd-")
 

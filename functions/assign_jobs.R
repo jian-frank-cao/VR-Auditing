@@ -188,7 +188,7 @@ assign_ca_jobs = function(data){
 }
 
 
-## Run -------------------------------------------------------------------------
-plan(multisession, workers = 30)
-assign_ca_jobs(data)
+## Not Run -------------------------------------------------------------------------
+# plan(multisession, workers = 30)
+# assign_ca_jobs(data)
 

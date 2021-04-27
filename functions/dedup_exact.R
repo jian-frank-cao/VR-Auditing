@@ -75,17 +75,17 @@ dedup_ca_exact = function(data, design_exact){
   )
 }
 
-## Run -------------------------------------------------------------------------
-# design
-design_exact = list(
-  var_list = c("LastName_char","FirstName_char","DOB",
-               "MiddleName_char1","Suffix_char"),
-  var_string = c("LastName_char","FirstName_char","DOB",
-                 "MiddleName_char1","Suffix_char"),
-  var_numeric = NULL
-)
-
-dedup_ca_exact(data, design_exact)
+## Not Run -------------------------------------------------------------------------
+# # design
+# design_exact = list(
+#   var_list = c("LastName_char","FirstName_char","DOB",
+#                "MiddleName_char1","Suffix_char"),
+#   var_string = c("LastName_char","FirstName_char","DOB",
+#                  "MiddleName_char1","Suffix_char"),
+#   var_numeric = NULL
+# )
+# 
+# dedup_ca_exact(data, design_exact)
 
 
 
