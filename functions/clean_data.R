@@ -46,10 +46,10 @@ clean_ca_data = function(data){
   print("Cleaning data...")
   data_clean = data %>% 
     mutate(
-      LastName = LastName %>% replace_latin,
-      FirstName = FirstName %>% replace_latin,
-      MiddleName = MiddleName %>% replace_latin,
-      Suffix = Suffix %>% replace_latin,
+      # LastName = LastName %>% replace_latin,
+      # FirstName = FirstName %>% replace_latin,
+      # MiddleName = MiddleName %>% replace_latin,
+      # Suffix = Suffix %>% replace_latin,
       
       LastName_char = LastName %>% extract_char %>% tolower %>% replace_NA_char,
       FirstName_char = FirstName %>% extract_char %>% tolower %>% replace_NA_char,
