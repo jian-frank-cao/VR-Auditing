@@ -1,6 +1,7 @@
 ## Set environment -------------------------------------------------------------
 library(tidyverse)
 library(data.table)
+library(fastLink)
 library(furrr)
 options(future.globals.maxSize= 89128960000)
 
